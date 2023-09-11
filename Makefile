@@ -17,6 +17,7 @@ run: build
 		./${EXECUTABLE_NAME}
 	@echo "- make run finished"
 
+# clear: clears bin folder.
 .PHONY: clear
 clear: 
 	rm -rf bin
